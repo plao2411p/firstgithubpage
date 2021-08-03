@@ -1,9 +1,14 @@
 body {
     background-color: white;
+    margin-left: 8%;
+    margin-right: 8%;
+    /* border: 4px dashed red; */
+    
 }
 div{
     border: 4px dashed gainsboro;
-    margin-inline: 20%;
+    margin-inline: 8%;
+
 }
 h1 {
     text-align: center;
@@ -13,9 +18,29 @@ h1 {
     color: indigo;
     
 }
+h3 {
+    text-align: left;
+    font-family: Arial;
+    margin-inline: 10%;
+    color:black;
+
+}
 p {
     text-align: justify;
     font-family: Arial;
     margin-inline: 10%;
-    border: 1px solid black;
+    /* border: 0px solid black; */
+    
+}
+li {
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    margin-inline: 10%;
+}
+form {
+    margin-inline: 10%;
+    margin-block: 5%;
+}
+input {
+    margin-inline: 10%;
 }
