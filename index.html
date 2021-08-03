@@ -10,14 +10,51 @@
 
 </head>
 
+
 <body>
     <div>
-        <h1>Casa</h1>
+        <h1>Teoría de conjuntos</h1>
+        <h3>Operaciones entre conjuntos:</h3>
+        <ul>
+            <li>Unión -> un</li>
+            <li>Intersección -> in</li>
+            <li>Diferencia -> di</li>
+            <li>Complemento -> UdiA</li>
+            <li>Diferencia simétrica -> ds</li>
+        </ul>
         <p>
-            Practicando para ejecutar una aplicaión.
+            Para realizar varias operaciones debes usar parentesis.
+            <br><br>
+            Ejemplos:
         </p>
+        <ul>
+            <li>(AunB)diC</li>
+            <li>Ain(CdsB)</li>
+            <li>((AunB)in(CinB))un(AdiB)</li>
+        </ul>
+        <h3>Conjuntos:</h3>
+        <ul>
+            <li>U = [1 2 3 4 5 6 7 8 9]</li>
+            <li>A = [1 2 3 4]</li>
+            <li>B = [2 4 6 8]</li>
+            <li>C = [3 4 5 6]</li>
+        </ul>
+        <p>Ingrese una operación: </p>
+        <input type="text" id="operation">
+        <button type="button" onclick="string
+        ()">Enviar</button>
+        <p id="salida"></p>
+        <script>
+            function string() {
+                let x = document.getElementById("operation").value;
+
+                document.getElementById("salida").innerHTML = x;
+            }
+
+        </script>
     </div>
-    
+
+
 </body>
 
 
