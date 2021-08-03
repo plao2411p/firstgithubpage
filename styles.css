@@ -37,10 +37,9 @@ li {
     font-family: 'Courier New', Courier, monospace;
     margin-inline: 10%;
 }
-form {
-    margin-inline: 10%;
-    margin-block: 5%;
-}
+
 input {
     margin-inline: 10%;
+    padding-left: 0px;
+    padding-right: 0px;
 }
