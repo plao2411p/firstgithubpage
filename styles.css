@@ -1,0 +1,21 @@
+body {
+    background-color: white;
+}
+div{
+    border: 4px dashed gainsboro;
+    margin-inline: 20%;
+}
+h1 {
+    text-align: center;
+    font-family: Arial;
+    margin-inline: 10%;
+    border: 1px solid black;
+    color: indigo;
+    
+}
+p {
+    text-align: justify;
+    font-family: Arial;
+    margin-inline: 10%;
+    border: 1px solid black;
+}
