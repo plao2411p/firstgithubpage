@@ -9,6 +9,7 @@ function getstrin() {
 function depuradorstring(operation) {
     document.getElementById("salida").innerHTML = operation;
     alert(matrix)
+
     function NoNum(cadena) {
 
     }
@@ -24,5 +25,5 @@ function depuradorstring(operation) {
     function CheckOperations() {
 
     }
-
+    
 }
