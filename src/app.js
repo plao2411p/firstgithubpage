@@ -1,12 +1,12 @@
-var operators = "unindids";
-var sets = "UABC";
+const operators = "unindids";
+const sets = "UABC";
+const stringIn = document.querySelector("#operation");
+const button = document.querySelector("#button-1");
+const stringOut = document.querySelector("#salida")
 
-function getstrin() {
-    let x = document.getElementById("operation").value;
-    depuradorstring(x);
-
-}
-function depuradorstring(operation) {
-    document.getElementById("salida").innerHTML = operation;
-
-}
+button.addEventListener("click", () => {
+    const input = stringIn.value;
+    const output = stringOut.value;
+    alert("Input : " + input)
+    alert("Output : " + output)
+})
