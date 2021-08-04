@@ -1,0 +1,49 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles.css">
+    <title>Plao</title>
+    <script src="https://unpkg.com/mathjs@9.4.4/lib/browser/math.js"></script>
+
+</head>
+
+<body>
+    <div>
+        <h1>Teoría de conjuntos</h1>
+        <h3>Operaciones entre conjuntos:</h3>
+        <ul>
+            <li>Unión -> un</li>
+            <li>Intersección -> in</li>
+            <li>Diferencia -> di</li>
+            <li>Complemento -> UdiA</li>
+            <li>Diferencia simétrica -> ds</li>
+        </ul>
+        <p>
+            Para realizar varias operaciones debes usar parentesis.0
+            <br><br>
+            Ejemplos:
+        </p>
+        <ul>
+            <li>(AunB)diC</li>
+            <li>Ain(CdsB)</li>
+            <li>((AunB)in(CinB))un(AdiB)</li>
+        </ul>
+        <h3>Conjuntos:</h3>
+        <ul>
+            <li>U = [1 2 3 4 5 6 7 8 9]</li>
+            <li>A = [1 2 3 4]</li>
+            <li>B = [2 4 6 8]</li>
+            <li>C = [3 4 5 6]</li>
+        </ul>
+        <p>Ingrese una operación: </p>
+        <input type="text" id="operation">
+        <button type="button" onclick="getstrin()">Ingresar</button>
+        <p id="salida"></p>
+    </div>
+    <script src="./src/app.js"></script>
+</body>
+
+</html>
