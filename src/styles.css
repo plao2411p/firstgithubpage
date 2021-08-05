@@ -1,45 +1,27 @@
 body {
-    background-color: white;
-    margin-left: 8%;
-    margin-right: 8%;
-    /* border: 4px dashed red; */
+    border: 2px solid navy;
     
 }
-div{
-    border: 4px dashed gainsboro;
-    margin-inline: 8%;
-
+.di1 {
+    padding: 2%;
+    border: 2px dashed deeppink;
+    margin-inline: 15%;
+}
+.di2 {
+    padding: 2%;
+    border: 2px dashed gold;
+    margin-inline: 15%;
 }
 h1 {
-    text-align: center;
-    font-family: Arial;
-    margin-inline: 10%;
-    border: 1px solid black;
-    color: indigo;
-    
-}
-h3 {
-    text-align: left;
-    font-family: Arial;
-    margin-inline: 10%;
-    color:black;
-
+    text-align: right;
+    font-size: 3.4vw;
 }
 p {
+    font-family: 'Roboto', sans-serif;
     text-align: justify;
-    font-family: Arial;
-    margin-inline: 10%;
-    /* border: 0px solid black; */
-    
+    font-size: 1..8vw;
 }
-li {
-    text-align: left;
-    font-family: 'Courier New', Courier, monospace;
-    margin-inline: 10%;
-}
-
-input {
-    margin-inline: 10%;
-    padding-left: 0px;
-    padding-right: 0px;
+.imhtml {
+    border: 5px dotted orangered;
+    max-width: 50%;
 }
